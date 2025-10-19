@@ -64,7 +64,7 @@ body::after{
     left: 0;
     width: 100%;          
     height: 100%;         
-    background: #fff url("../image/body.jpg") top right no-repeat;
+    background: #fff url("../body.jpg") top right no-repeat;
     background-size: cover;
     z-index: -1;
 }
@@ -199,3 +199,4 @@ h6{
   
 
   
+
