@@ -1,0 +1,201 @@
+
+@media(max-width:1200px){
+
+    .username{
+        padding-top: 1rem !important;
+        margin-left: 0rem !important;
+        flex: none !important;
+    }
+    
+    article{
+        padding-bottom: 20rem !important;
+        margin-top: -2rem !important;
+    }
+
+    .profile-page img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .profile-page .container {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+    }
+
+    body{
+        margin-top: 0rem !important;
+    }
+
+    .bio{
+        margin-top: 1rem !important;     
+      }
+
+    .Dislikes .row .col{
+        flex: 1 1 50% !important;
+        padding: 1rem;
+    }
+
+    .circle-icon{
+        left: 12rem !important;
+    }
+
+    .Hobbies .content ul {
+        font-size: 11px !important;
+      }
+
+      .Dislikes span{
+        font-size: 12px !important;
+  }
+
+}    
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: #fff;
+    color: #fff;
+    position: relative;
+    background: transparent;
+}
+
+body::after{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;          
+    height: 100%;         
+    background: #fff url("../image/body.jpg") top right no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.profile-page .container {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto
+}    
+
+h6{
+    font-family: initial;
+}
+
+.head {
+    display: inline-block;
+  }
+
+.circle-icon {
+    position: absolute;
+    top: 23px;
+    right: 8rem;   
+    width: 40px;
+    height: 40px;
+    color:  #3edcff;
+    border-radius: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 10rem;
+  } 
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #3edcff;
+    margin: 4px 10px;
+  }
+
+.username{
+    padding-top: 11rem;
+    margin-left: -3rem;
+}
+
+.btn{
+    width: 100%;
+    padding: 1rem 1rem 1rem 0rem !important;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3edcff !important;
+    color: #fff;
+  } 
+
+.flip-right {
+    transform: scaleX(-1);
+    display: inline-block;
+  }
+
+  .bio{
+    margin-top: -8rem;     
+  }
+
+  .social .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: ease-in-out 0.3s;
+    margin-bottom:3rem; 
+    text-decoration: none;
+    color: #3edcff;
+  }
+  
+  .social .icon-box i {
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  
+  .social .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .social .icon-box:hover {
+    background: rgba(255, 255, 255, 0.12);
+  }
+  
+  .Hobbies .content ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .Hobbies .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Hobbies .content ul strong {
+    margin-right: 15px;
+  }
+  
+  .Hobbies .content ul i {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #3edcff;
+    line-height: 0;
+  }
+
+  .Dislikes i{
+        color: #3edcff;
+        font-size: 20px;
+  }
+
+  .Dislikes span{
+        font-size: 16px;
+  }
+  
+
+  

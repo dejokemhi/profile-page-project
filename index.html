@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <article class="profile-page">
+        <section class="container  p-4 bg-dark text-white">
+            <div class="fw-lighter head section-title">
+                <h2 class="fw-lighter">Profile</h2>
+                <div class="circle-icon">
+                    <i class="bi bi-three-dots"></i>
+                </div>
+            </div>
+            <section class="row top">
+                <div class="col img-wrap" data-testid="test-profile-card">
+                    <img src="image/profile.jpg" style="height:70%; width:90%;" class="img-fluid" alt="Avatar" data-testid="test-user-avatar">
+                </div>
+                <div class="col username">
+                    <header>
+                        <h1 class="fw-bold" aria-label="Name" data-testid="test-user-name">Ishola Barakat</h1>
+                    </header>
+                    <div class="text-info fst-italic">
+                        <h6 >Frontend Developer</h6>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <i class="bi bi-clock-history pe-2" ></i><span id="time" data-testid="test-user-time"></span>
+                        </div>
+                        <div class="col">
+                            <i class="bi bi-geo-alt pe-2"></i><span>Nigeria,Africa.</span>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col">
+                            <a href="noopener" target="_blank" class="btn bg-light"><i class="bi bi-chat-quote pe-2"></i><span>DM</span></a>
+                        </div>
+                        <div class="col">
+                            <a href="noopener" target="_blank" class="btn bg-light"><i class="bi bi-envelope pe-2"></i><span>Email</span></a>
+                        </div>
+                        <div class="col">
+                            <a href="noopener" target="_blank" class="btn bg-light"><i class="bi bi-reply flip-right ps-2"></i><span>Share</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bottom">
+                <section class="bio mb-3">
+                    <div class="section-title">
+                        <h2>Biography</h2>
+                    </div>
+                    <p data-testid="test-user-bio">
+                        A passionate and skilled Front-End Web Developer with a strong command of HTML, CSS, and JavaScript,
+                        and hands-on experience in WordPress development. Dedicated to creating visually appealing, responsive,
+                        and user-friendly websites that deliver smooth digital experiences. With a keen eye for design 
+                        and detail, I enjoy turning ideas into interactive, functional interfaces that blend creativity with 
+                        clean, efficient code.
+                    </p>
+                </section>
+
+                <section class="social">
+                    <div class="section-title mb-3">
+                        <h2>Socials</h2>
+                    </div>
+                    <div class="row" data-testid="test-user-socials">
+                        <div class="col-6">
+                            <div>
+                              <a href="noopener" target="_blank" class="icon-box" data-testid="test-user-social-twitter">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                    <h3>X.Com</h3>
+                              </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div>
+                                <a href="noopener" target="_blank" class="icon-box" data-testid="test-user-social-linkdin">
+                                    <i class="bi bi-linkedin"></i>
+                                    <h3>LinkedIn</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div>
+                                <a href="noopener" target="_blank" class="icon-box" data-testid="test-user-social-stackoverflow">
+                                    <i class="bi bi-stack-overflow"></i>
+                                  <h3>Stack Overflow</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div>
+                                <a href="noopener" target="_blank" class="icon-box" data-testid="test-user-social-github">
+                                    <i class="bi bi-github"></i>
+                                    <h3>GitHub</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="Hobbies">
+                    <div class="section-title mb-3">
+                        <div>
+                            <h2>Hobbies</h2>
+                        </div>
+                    </div>
+                    <div class="row content mb-3" data-testid="test-user-hobbies">
+                        <div class="col">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Reading</strong></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Gaming</strong></li>   
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Coding</strong></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Exploring</strong></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Exercise</strong></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Movies</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="Dislikes">
+                    <div class="section-title mb-3">
+                        <div>
+                            <h2>Dislikes</h2>
+                        </div>
+                    </div>
+                    <div class="row bg-light text-dark p-3 mb-2" data-testid="test-user-dislikes">
+                        <div class="col">
+                            <i class="bi bi-bug-fill text-danger pe-2"></i><span>debugging</span>
+                        </div>
+                        <div class="col">
+                            <i class="bi bi-volume-up-fill text-muted pe-2"></i><span>Noise</span>
+                        </div>
+                        <div class="col">
+                            <i class="bi bi-paint-bucket text-success"></i><span>Doing Dishes</span>
+                        </div>
+                        <div class="col">
+                            <i class="bi bi-moon-stars-fill text-warning pe-2"></i><span>Sleepless Night</span>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </article>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
